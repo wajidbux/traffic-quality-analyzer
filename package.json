@@ -1,0 +1,32 @@
+{
+  "name": "traffic-quality-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CTV/Roku Traffic Quality Analyzer using the Pixalate Ad Fraud API",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,client -c blue,green \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w server && npm run build -w client",
+    "start": "npm run start -w server",
+    "typecheck": "npm run typecheck -w server && npm run typecheck -w client",
+    "test": "npm run test -w server",
+    "seed:sample": "npm run seed:sample -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "allowScripts": {
+    "better-sqlite3@11.10.0": true,
+    "esbuild@0.28.2": true,
+    "esbuild@0.21.5": true
+  },
+  "dependencies": {
+    "pg": "^8.23.0"
+  }
+}

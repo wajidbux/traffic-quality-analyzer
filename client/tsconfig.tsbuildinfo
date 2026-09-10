@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/types.ts","./src/components/ui.tsx","./src/pages/channels.tsx","./src/pages/dashboard.tsx","./src/pages/pixalateapi.tsx","./src/pages/reports.tsx","./src/pages/results.tsx","./src/pages/riskanalysis.tsx","./src/pages/runanalysis.tsx","./src/pages/settingspage.tsx","./src/pages/upload.tsx"],"version":"5.9.3"}

@@ -1,0 +1,28 @@
+sid={SID}&token={TOKEN}&app_id={APPID}&adslot_id={ADSLOTID}&app.bundle={BUNDLEID}&app.name={APPNAME}&ifa={IFA}&vwd={WIDTH}&vht={HEIGHT}&dev.type={DEVICETYPE}&dev.os={OS}&ua={USERAGENT}&dev.osv={OSVERSION}&dev.brand={BRAND}&dev.model={MODEL}&ip={IP}&cat={CAT}&dnt=0&cb={CB}&url={STOREURL}
+
+
+
+
+
+sid=261004&token=025edfe322f055a1617f67544d1d9f90&app_id=ROKU_ADS_APP_ID&adslot_id=177434&app.bundle=854889&app.name=Movie Vault&ifa=ROKU_ADS_TRACKING_ID&vwd=ROKU_ADS_DISPLAY_WIDTH&vht=ROKU_ADS_DISPLAY_HEIGHT&dev.type=3&dev.os=12&ua=ROKU_ADS_USER_AGENT&dev.model=ROKU_ADS_DEVICE_MODEL&ip=ROKU_ADS_EXTERNAL_IP&dnt=0&cb=ROKU_ADS_CACHE_BUSTER&url=https://channelstore.roku.com/details/c5be2e58de347445dc973661ffb41aef:2209a125728c85379b57d0d0c401ff4f/movie-vault
+
+
+
+
+https://10475.use.b.svr-algorix.com/rtb/vasttag?sid=261004&token=025edfe322f055a1617f67544d1d9f90&app_id=ROKU_ADS_APP_ID&adslot_id=177434&app.bundle=854889&app.name=Movie Vault&ifa=ROKU_ADS_TRACKING_ID&vwd=ROKU_ADS_DISPLAY_WIDTH&vht=ROKU_ADS_DISPLAY_HEIGHT&dev.type=3&dev.os=12&ua=ROKU_ADS_USER_AGENT&dev.model=ROKU_ADS_DEVICE_MODEL&ip=ROKU_ADS_EXTERNAL_IP&dnt=0&cb=ROKU_ADS_CACHE_BUSTER&url=https://channelstore.roku.com/details/c5be2e58de347445dc973661ffb41aef:2209a125728c85379b57d0d0c401ff4f/movie-vault
+
+https://10475.use.b.svr-algorix.com/rtb/vasttag?sid=261004&token=025edfe322f055a1617f67544d1d9f90&app_id=ROKU_ADS_APP_ID&adslot_id=177435&app.bundle=854889&app.name=Movie Vault&ifa=ROKU_ADS_TRACKING_ID&vwd=ROKU_ADS_DISPLAY_WIDTH&vht=ROKU_ADS_DISPLAY_HEIGHT&dev.type=3&dev.os=12&ua=ROKU_ADS_USER_AGENT&dev.model=ROKU_ADS_DEVICE_MODEL&ip=ROKU_ADS_EXTERNAL_IP&dnt=0&cb=ROKU_ADS_CACHE_BUSTER&url=https://channelstore.roku.com/details/c5be2e58de347445dc973661ffb41aef:2209a125728c85379b57d0d0c401ff4f/movie-vault
+
+
+
+
+https://10475.euc.b.svr-algorix.com/rtb/vasttag?sid=261004&token=025edfe322f055a1617f67544d1d9f90&app_id=ROKU_ADS_APP_ID&adslot_id=177434&app.bundle=854889&app.name=Movie Vault&ifa=ROKU_ADS_TRACKING_ID&vwd=ROKU_ADS_DISPLAY_WIDTH&vht=ROKU_ADS_DISPLAY_HEIGHT&dev.type=3&dev.os=12&ua=ROKU_ADS_USER_AGENT&dev.model=ROKU_ADS_DEVICE_MODEL&ip=ROKU_ADS_EXTERNAL_IP&dnt=0&cb=ROKU_ADS_CACHE_BUSTER&url=https://channelstore.roku.com/details/c5be2e58de347445dc973661ffb41aef:2209a125728c85379b57d0d0c401ff4f/movie-vault
+
+https://10475.euc.b.svr-algorix.com/rtb/vasttag?sid=261004&token=025edfe322f055a1617f67544d1d9f90&app_id=ROKU_ADS_APP_ID&adslot_id=177435&app.bundle=854889&app.name=Movie Vault&ifa=ROKU_ADS_TRACKING_ID&vwd=ROKU_ADS_DISPLAY_WIDTH&vht=ROKU_ADS_DISPLAY_HEIGHT&dev.type=3&dev.os=12&ua=ROKU_ADS_USER_AGENT&dev.model=ROKU_ADS_DEVICE_MODEL&ip=ROKU_ADS_EXTERNAL_IP&dnt=0&cb=ROKU_ADS_CACHE_BUSTER&url=https://channelstore.roku.com/details/c5be2e58de347445dc973661ffb41aef:2209a125728c85379b57d0d0c401ff4f/movie-vault
+
+
+
+
+ttps://10475.apac.b.svr-algorix.com/rtb/vasttag?sid=261004&token=025edfe322f055a1617f67544d1d9f90&app_id=ROKU_ADS_APP_ID&adslot_id=177434&app.bundle=854889&app.name=Movie Vault&ifa=ROKU_ADS_TRACKING_ID&vwd=ROKU_ADS_DISPLAY_WIDTH&vht=ROKU_ADS_DISPLAY_HEIGHT&dev.type=3&dev.os=12&ua=ROKU_ADS_USER_AGENT&dev.model=ROKU_ADS_DEVICE_MODEL&ip=ROKU_ADS_EXTERNAL_IP&dnt=0&cb=ROKU_ADS_CACHE_BUSTER&url=https://channelstore.roku.com/details/c5be2e58de347445dc973661ffb41aef:2209a125728c85379b57d0d0c401ff4f/movie-vault
+
+ttps://10475.apac.b.svr-algorix.com/rtb/vasttag?sid=261004&token=025edfe322f055a1617f67544d1d9f90&app_id=ROKU_ADS_APP_ID&adslot_id=177435&app.bundle=854889&app.name=Movie Vault&ifa=ROKU_ADS_TRACKING_ID&vwd=ROKU_ADS_DISPLAY_WIDTH&vht=ROKU_ADS_DISPLAY_HEIGHT&dev.type=3&dev.os=12&ua=ROKU_ADS_USER_AGENT&dev.model=ROKU_ADS_DEVICE_MODEL&ip=ROKU_ADS_EXTERNAL_IP&dnt=0&cb=ROKU_ADS_CACHE_BUSTER&url=https://channelstore.roku.com/details/c5be2e58de347445dc973661ffb41aef:2209a125728c85379b57d0d0c401ff4f/movie-vault
