@@ -1,0 +1,55 @@
+# Traffic Quality Analyzer — Render deployment
+# See: https://render.com/docs/git-deploy
+
+services:
+  - type: web
+    name: traffic-quality-analyzer
+    env: node
+    region: oregon
+    plan: free
+    # Pin Node 22 — better-sqlite3@11.10.0 does not compile on Node 26+
+    # (V8 API break: PropertyCallbackInfo::This removed).
+    nodeVersion: 22
+    buildCommand: cd server && npm install && cd .. && npm run build
+    startCommand: node server/dist/index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: APP_ENV
+        value: production
+      - key: PORT
+        value: "3001"
+      - key: PIXALATE_API_KEY
+        sync: false
+      - key: PIXALATE_BASE_URL
+        value: "https://fraud-api.pixalate.com"
+      - key: PIXALATE_FRAUD_PATH
+        value: "/api/v2/fraud"
+      - key: PIXALATE_CTV_BASE_URL
+        value: "https://api.pixalate.com"
+      - key: PIXALATE_CTV_PATH
+        value: "/mrt/ctv"
+      - key: DATABASE_URL
+        value: "sqlite:./data/tqa.sqlite"
+      - key: DATABASE_DIR
+        value: "./data"
+      - key: LOG_LEVEL
+        value: "info"
+      - key: REQUESTS_PER_MINUTE
+        value: "120"
+      - key: MAX_CONCURRENCY
+        value: "10"
+      - key: MASK_SENSITIVE
+        value: "true"
+      - key: QUOTA_WARN_YELLOW
+        value: "800"
+      - key: QUOTA_WARN_RED
+        value: "200"
+      - key: RISK_BAND_ELEVATED_FROM
+        value: "0.5"
+      - key: RISK_BAND_HIGH_FROM
+        value: "0.75"
+      - key: RISK_BAND_VERY_HIGH_FROM
+        value: "0.9"
+      - key: RETENTION_DAYS
+        value: "0"
