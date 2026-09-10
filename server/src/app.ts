@@ -1,4 +1,7 @@
 import express, { NextFunction, Request, Response } from "express";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { createContext, AppContext } from "./context.js";
 import { logger } from "./utils/logger.js";
 import { channelsRouter } from "./routes/channels.js";
@@ -50,6 +53,20 @@ export function createApp(contextOverride?: Partial<AppContext>): express.Expres
   app.use("/api/ingest", ingestRouter(context));
 
   // 404 for unknown API routes
+  // Serve the built frontend (client/dist/).
+  // Resolve paths relative to this module (server/src/app.ts):
+  //   app.ts → src/ → server/ → project root → client/dist/
+  const __dirname = path.dirname(fileURLToPath(import.meta.url));
+  const projectRoot = path.resolve(__dirname, "..", "..");
+  const clientDist = path.resolve(projectRoot, "client", "dist");
+  if (fs.existsSync(clientDist)) {
+    app.use(express.static(clientDist));
+    // SPA fallback: serve index.html for any non-API route.
+    app.get("/*", (_req, res) =>
+      res.sendFile(path.resolve(clientDist, "index.html"))
+    );
+  }
+
   app.use("/api", (_req, res) => {
     res.status(404).json({ error: "Not found" });
   });
