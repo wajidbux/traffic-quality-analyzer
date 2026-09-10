@@ -29,8 +29,12 @@ services:
         value: "https://api.pixalate.com"
       - key: PIXALATE_CTV_PATH
         value: "/mrt/ctv"
+      # PostgreSQL on Render (free tier). Replace with your DB URL after
+      # creating a Render PostgreSQL database. SQLite is not used on Render
+      # because better-sqlite3 requires native compilation that fails on
+      # Render's Node 26 runtime.
       - key: DATABASE_URL
-        value: "sqlite:./data/tqa.sqlite"
+        sync: false
       - key: DATABASE_DIR
         value: "./data"
       - key: LOG_LEVEL
