@@ -10,7 +10,7 @@ services:
     # Pin Node 22 — better-sqlite3@11.10.0 does not compile on Node 26+
     # (V8 API break: PropertyCallbackInfo::This removed).
     nodeVersion: 22
-    buildCommand: "npm install && (cd server && npx tsc -p tsconfig.json && node scripts/copy-assets.mjs) && (cd client && npx vite build)"
+    buildCommand: "npm install && npx tsc -p server/tsconfig.json && node server/scripts/copy-assets.mjs && npx vite build --config client/vite.config.ts"
     startCommand: node server/dist/index.js
     envVars:
       - key: NODE_ENV
