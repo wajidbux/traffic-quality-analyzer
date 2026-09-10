@@ -17,20 +17,21 @@
     "seed:sample": "tsx --env-file-if-exists=.env src/scripts/seedSample.ts"
   },
   "dependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/express": "^4.17.21",
     "@types/node": "^22.10.5",
+    "@types/pdfkit": "^0.13.8",
+    "@types/pg": "^8.23.1",
     "better-sqlite3": "^11.10.0",
     "csv-parse": "^5.6.0",
     "exceljs": "^4.4.0",
     "express": "^4.21.2",
     "pdfkit": "^0.15.2",
+    "pg": "^8.23.0",
     "pino": "^9.5.0",
     "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@types/better-sqlite3": "^7.6.12",
-    "@types/express": "^4.17.21",
-    "@types/pdfkit": "^0.13.8",
-    "@types/pg": "^8.23.1",
     "@types/supertest": "^6.0.2",
     "supertest": "^7.0.0",
     "tsx": "^4.19.2",
